@@ -1,0 +1,13 @@
+Description: Add keywords field to desktop file
+Author: Innocent De Marchi <tangram.peces@gmail.com
+Updated: 2018-03-24
+
+Index: librecad/desktop/librecad.desktop
+===================================================================
+--- librecad.orig/desktop/librecad.desktop
++++ librecad/desktop/librecad.desktop
+@@ -55,3 +55,4 @@ Exec=librecad %F
+ Icon=librecad
+ Categories=Graphics;Engineering;
+ MimeType=image/vnd.dxf;
++Keywords=design;CAD;diagrams;graphics

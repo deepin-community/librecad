@@ -1,0 +1,18 @@
+Description: Use system dxflib
+Author: Scott Howard <showard@debian.org>
+
+Index: librecad/libraries/jwwlib/jwwlib.pro
+===================================================================
+--- librecad.orig/libraries/jwwlib/jwwlib.pro
++++ librecad/libraries/jwwlib/jwwlib.pro
+@@ -20,8 +20,8 @@ GENERATED_DIR = ../../generated/lib/jwwl
+ # Use common project definitions.
+ include(../../common.pri)
+ 
+-#INCLUDEPATH += \
+-#    ../dxflib/src
++INCLUDEPATH += \
++    /usr/include/dxflib
+ 
+ SOURCES += \
+     src/dl_writer_ascii.cpp \
